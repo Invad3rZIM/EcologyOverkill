@@ -6,15 +6,15 @@
 Great questions! This is a tool I designed to get out of my homework. I graduate university in about 3.5 weeks, but at the moment I'm a part-time student who took Ecology as a science elective. In about 4 hours, my term-project is due. This project required collecting 15 different leaves, identifying them,
 then researching their species classification ( Kingdom > Phylum > Class > Order > Family > Species ) and documenting it in a table.
 
-This seemed like a lot of repetitive, boring work, and so naturally I ignored it until the very last day. Instead, I came across a job form for a tech-company that asked for "a sample of your code". Unfortunately for me, most of the code I write is either professionally done (and so I can't freely share it) or it's way too dated. So I decided I would find a mini-project to work on, & write some code using that company's tech stack.
+This seemed like a lot of repetitive, boring work, and so naturally I ignored it until the very last day. Instead, I came across a job form for a tech-company that asked for "a sample of your code". Unfortunately for me, most of the code I write is either professionally done (and so I can't freely share it) or it's way too dated. So I decided I would find a mini-project to work on, & write some code using that company's tech stack (Go).
 
 
-See files/output.txt for raw final output.
+See ```files/output.txt``` for raw final output.
 
-Alternatively, check out finaltable.png (or scroll down) to see how how it turned out
+Alternatively, check out finaltable.png (or scroll down) to see how how it turned out.
 
 # Part II - The Wiki Web Crawler
-Then I got an idea - this ecology project is a lot of wikipedia lookups, and it's mindnumbing. Maybe I could partially automate my term-project. So I built a simple webcrawler this morning, one that reads from a list of websites (see files/crawllist.txt), sends a GET requests, then parses the body to find all the relevant data. I saved this data to files/filtereddata.txt.
+Then I got an idea - this ecology project is a lot of wikipedia lookups, and it's mindnumbing. Maybe I could partially automate my term-project. So I built a simple webcrawler this morning, one that reads from a list of websites (see ```files/crawllist.txt```), sends a GET requests, then parses the body to find all the relevant data. I saved this data to ```files/filtereddata.txt```.
 
 Unfortunately (and perhaps expectedly), I can't make a flawless webcrawler in the course of an hour or 2. 
 
@@ -24,13 +24,13 @@ There are a couple problems
 
 2. I still need to check over my data, ensuring accuracy. This is a term-project after all, so I need to be thorough. :)
 
-With that in mind, it made sense to write to files/filtereddata.txt
+With that in mind, it made sense to write to ```files/filtereddata.txt```
 
 THat document contained my auto-generated code. I left this intact so you can see the end result of my web-crawler. 
 
 files/modifieddata.txt includes changes I made to correct for data that wasn't on the wikipedia pages. The biggest problem was simply I chose wikipedia pages that didn't have all the requisite info. My bad!
 
-Here's an example of filtereddata.txt vs modifieddata.txt
+Here's an example of ```filtereddata.txt``` vs ```modifieddata.txt```
 
 # Auto-generated (filtered)
 ```
@@ -56,7 +56,6 @@ Family Rosaceae
 Phylum Magnoliophyta
 Class Magnoliopsida
 Genus Prunus
-Subgenus Prunus
 Species Prunus cerasifera, cherry plum
 ```
 As far as I'm concerned, this web-crawler was a success!
@@ -98,13 +97,15 @@ I can do that, but the first step is to organize my data.
 
 Something to note is the number system. My ecology professor doesn't know it (or care), but the output he wants us to match exactly follows the form of an inorder-traversal DFS. Wonderful recursion, I know how to do that! It's worth mentioning he's got some interesting formatting stuff going on for the headers (Kingdom, Phylum, etc...) Not too big a problem.
 
-Once I saw it was a DFS, the only real challenge was to get my modifiedData into a form that could be graphically traversed. For this, I went with an adjacency list.
+Once I saw it was a DFS, the only real challenge was to get my ```modifiedData``` into a form that could be graphically traversed. For this, I went with an adjacency list.
 
 It goes a little like this...
 
+```
 Every Phylum P is a child of a kingdom K
 Every Class C is a child of a Phylum P
 and so on...
+```
 
 Given that, all I had to do was throw everything into a map[string]map[string]bool to represent this.
 The reason the value is a map[string]bool instead of a []string{} slice is that I didn't want repeats, so
@@ -137,6 +138,6 @@ If you liked this mini-project and are hiring in NYC or California, I'm totally 
 
 My name's Kirk Zimmer (kzimmer655@gmail.com)
 
-My favorite languages are Go, Java, Python, Javascript (React & React-Native)
+My favorite/best languages are Go, Java, Python, and Javascript (React & React-Native)
 
 Shoot me an email!
