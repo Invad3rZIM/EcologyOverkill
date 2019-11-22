@@ -2,15 +2,16 @@
 
 # Part I - What is this & why did you write it? 
 
-See files/output.txt for raw final output.
-
-Alternatively, check out finaltable.png to see how how it turned out
-
 
 Great questions! This is a tool I designed to get out of my homework. I graduate university in about 3.5 weeks, but at the moment I'm a part-time student who took Ecology as a science elective. In about 4 hours, my term-project is due. This project required collecting 15 different leaves, identifying them,
 then researching their species classification ( Kingdom > Phylum > Class > Order > Family > Species ) and documenting it in a table.
 
 This seemed like a lot of repetitive, boring work, and so naturally I ignored it until the very last day. Instead, I came across a job form for a tech-company that asked for "a sample of your code". Unfortunately for me, most of the code I write is either professionally done (and so I can't freely share it) or it's way too dated. So I decided I would find a mini-project to work on, & write some code using that company's tech stack.
+
+
+See files/output.txt for raw final output.
+
+Alternatively, check out finaltable.png (or scroll down) to see how how it turned out
 
 # Part II - The Wiki Web Crawler
 Then I got an idea - this ecology project is a lot of wikipedia lookups, and it's mindnumbing. Maybe I could partially automate my term-project. So I built a simple webcrawler this morning, one that reads from a list of websites (see files/crawllist.txt), sends a GET requests, then parses the body to find all the relevant data. I saved this data to files/filtereddata.txt.
