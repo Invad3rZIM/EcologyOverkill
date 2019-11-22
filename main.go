@@ -10,5 +10,5 @@ package main
 import "EcologyOverkill/engine"
 
 func main() {
-	engine.ScrapeFromFile("crawllist.txt", "filtereddata.txt")
+	engine.ScrapeFromFile("./files/crawllist.txt", "./files/filtereddata.txt")
 }

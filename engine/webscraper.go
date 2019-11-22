@@ -96,11 +96,14 @@ func scrapeURL(url string) ([]string, error) {
 		}
 
 		san := sanitizeBody(string(body))
-		strs := regexp.MustCompile("[^\\s]+").FindAllString(san, -1)
+		strs := regexp.MustCompile("[^\\s]+").FindAllString(san, -1) //regex out the whitespaces
 		return strs, nil
 	}
 }
 
+/*
+
+ */
 func sanitizeBody(generalBody string) string {
 	body := func(body string) string {
 		//Strip all newlines...
@@ -131,6 +134,7 @@ func sanitizeBody(generalBody string) string {
 	return body
 }
 
+/* stripTags removes all html tags and replaces them with " " */
 func stripTags(body string) string {
 	for strings.Index(body, "<") != -1 {
 		leftCut := strings.Index(body, "<")
