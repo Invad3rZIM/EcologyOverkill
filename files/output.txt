@@ -2,50 +2,50 @@ Kingdom:                      Plantae
     Phylum:                   Spermatophyta
         Class:                Dicotyledonae
             Order:            Fagales
-                Family:       Fagaceae
-                                              1. Quercus rubra, northern red oak
                 Family:       Betulaceae
-                                              2. Carpinus betulus, European hornbeam
+                                        1. Carpinus betulus, European hornbeam
+                Family:       Fagaceae
+                                        2. Quercus rubra, northern red oak
             Order:            Lamiales
                 Family:       Oleaceae
-                                              3. Syringa vulgaris, common lilac
+                                        3. Syringa vulgaris, common lilac
             Order:            Proteales
                 Family:       Platanaceae
-                                              4. Platanus occidentalis, buttonball
+                                        4. Platanus occidentalis, buttonball
     Phylum:                   Ginkgophyta
         Class:                Ginkgoopsida
             Order:            Ginkgoales
                 Family:       Ginkgoaceae
-                                              5. Ginkgo biloba, ginkgo
+                                        5. Ginkgo biloba, ginkgo
     Phylum:                   Magnoliophyta
-        Class:                Liliopsida
-            Order:            Poales
-                Family:       Poaceae
-                                              6. Phragmites australis, ditch reed
         Class:                Magnoliopsida
             Order:            Rosales
                 Family:       Rosaceae
-                                              7. Prunus cerasifera, cherry plum
+                                        6. Prunus cerasifera, cherry plum
             Order:            Dipsacales
                 Family:       Adoxaceae
-                                              8. Sambucus nigra, elder
+                                        7. Sambucus nigra, elder
             Order:            Asterales
                 Family:       Asteraceae
-                                              9. Artemisia vulgaris, Felonherb
-                                              10. Symphyotrichum novi-belgii, Michaelmas daisy
+                                        8. Artemisia vulgaris, Felonherb
+                                        9. Symphyotrichum novi-belgii, Michaelmas daisy
             Order:            Laurales
                 Family:       Lauraceae
-                                              11. Laurus nobilis, sweet bay
+                                        10. Laurus nobilis, sweet bay
             Order:            Sapindales
                 Family:       Sapindaceae
-                                              12. Acer platanoides, Norway maple
+                                        11. Acer platanoides, Norway maple
         Class:                Magnoliopsida 
             Order:            Caryophyllales
                 Family:       Polygonaceae
-                                              13. Polygonum aviculare, prostrate knotweed
+                                        12. Polygonum aviculare, prostrate knotweed
+        Class:                Liliopsida
+            Order:            Poales
+                Family:       Poaceae
+                                        13. Phragmites australis, ditch reed
     Phylum:                   Coniferophyta
         Class:                Pinopsida
             Order:            Pinales
                 Family:       Pinaceae
-                                              14. Pinus sylvestris, Scotch pine
-                                              15. Pinus strobus, Weymouth pine
+                                        14. Pinus sylvestris, Scotch pine
+                                        15. Pinus strobus, Weymouth pine

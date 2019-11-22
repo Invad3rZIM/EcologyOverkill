@@ -101,7 +101,7 @@ func generateTree(speciesTable map[string]map[string]struct{}, file *os.File, st
 			generateTree(speciesTable, file, cat, depth+1)
 		} else { //species is depth=4, and so this becomes the base case
 			count = count + 1
-			line = fmt.Sprint("                                              ", count, ". ", cat)
+			line = fmt.Sprint("                                        ", count, ". ", cat)
 
 			saveOutputData(file, line)
 		}
