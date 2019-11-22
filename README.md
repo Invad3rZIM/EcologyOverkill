@@ -1,13 +1,18 @@
 # EcologyOverkill
 
-WHat is this & why did you write it? 
+# Part I - What is this & why did you write it? 
+
+See files/output.txt for raw final output.
+
+Alternatively, check out finaltable.png to see how how it turned out
+
 
 Great questions! This is a tool I designed to get out of my homework. I graduate university in about 3.5 weeks, but at the moment I'm a part-time student who took Ecology as a science elective. In about 4 hours, my term-project is due. This project required collecting 15 different leaves, identifying them,
 then researching their species classification ( Kingdom > Phylum > Class > Order > Family > Species ) and documenting it in a table.
 
 This seemed like a lot of repetitive, boring work, and so naturally I ignored it until the very last day. Instead, I came across a job form for a tech-company that asked for "a sample of your code". Unfortunately for me, most of the code I write is either professionally done (and so I can't freely share it) or it's way too dated. So I decided I would find a mini-project to work on, & write some code using that company's tech stack.
 
-# Part I - The Wiki Web Crawler
+# Part II - The Wiki Web Crawler
 Then I got an idea - this ecology project is a lot of wikipedia lookups, and it's mindnumbing. Maybe I could partially automate my term-project. So I built a simple webcrawler this morning, one that reads from a list of websites (see files/crawllist.txt), sends a GET requests, then parses the body to find all the relevant data. I saved this data to files/filtereddata.txt.
 
 Unfortunately (and perhaps expectedly), I can't make a flawless webcrawler in the course of an hour or 2. 
@@ -55,7 +60,7 @@ Species Prunus cerasifera, cherry plum
 ```
 As far as I'm concerned, this web-crawler was a success!
 
-# Part II - File Parser / Table Output
+# Part III - File Parser / Table Output
 
 So at this point, I have all the data I need organized and scannable. Great!
 
@@ -110,7 +115,11 @@ I did run into a single bug however with this approach, and that was that there 
 
 If I had to do this over knowing may repeat across Phylum's, I'd make my key Parent => Parent:Child and my value be Child => Child:Grandchild. This solution feels like structuring composite keys in a relational-database. Because the keys and values, just got more specific, they would likely all be unique, removing this bug.
 
-# Part 3 - How long did this take, What did you learn, & was it worth it?
+Here's how it turned out...
+
+![Alt text](finaltable.png?raw=true "Output")
+
+# Part IV - How long did this take, What did you learn, & was it worth it?
 
 This took way longer than actually doing the term-project as it was meant to be done. Probably about 5x longer actually. But that's alright, because I also built myself a code-sample resume-piece in the process. And most importantly, it was a great challenge and way better than doing it manually.
 
@@ -118,7 +127,7 @@ I don't think I learned anything specifically new, but I did get more experience
 
 In conclusion, yes, it was absolutely worth it.
 
-# Thank You For Reading!
+# Part V - Thank You For Reading!
 
 Hey, thank you so much for getting to the end of this. 
 
