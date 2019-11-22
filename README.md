@@ -118,13 +118,13 @@ If I had to do this over knowing may repeat across Phylum's, I'd make my key Par
 
 Here's how it turned out...
 
-![Alt text](finaltable.png?raw=true "Output")
+![Alt text](finaloutput.png?raw=true "Output")
 
 # Part IV - How long did this take, What did you learn, & was it worth it?
 
 This took way longer than actually doing the term-project as it was meant to be done. Probably about 5x longer actually. But that's alright, because I also built myself a code-sample resume-piece in the process. And most importantly, it was a great challenge and way better than doing it manually.
 
-I don't think I learned anything specifically new, but I did get more experience with Go engineering, and that's always desirable. 
+I don't think I learned anything specifically new, but I did get more experience with Go engineering, and that's always desirable.  
 
 In conclusion, yes, it was absolutely worth it.
 
