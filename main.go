@@ -1,5 +1,14 @@
+/* Ecology Overkill
+
+
+Step 1. Build webcrawler to GET-scrape wikipedia pages {from crawllist.txt}.
+Step 2. Parse source code to remove all <tags></tags>
+*/
+
 package main
 
-func main() {
+import "EcologyOverkill/engine"
 
+func main() {
+	engine.ScrapeFromFile("crawllist.txt", "filtereddata.txt")
 }

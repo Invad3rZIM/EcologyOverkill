@@ -1,0 +1,143 @@
+0
+Kingdom Plantae
+Clade Tracheophytes
+Clade Angiosperms
+Clade Eudicots
+Clade Rosids
+Order Rosales
+Family Rosaceae
+Genus Prunus
+Subgenus Prunus
+1
+Kingdom Plantae
+Clade Tracheophytes
+Division Pinophyta
+Class Pinopsida
+Order Pinales
+Family Pinaceae
+Genus Pinus
+Subgenus P. sylvestris
+2
+Kingdom Plantae
+Clade Tracheophytes
+Clade Angiosperms
+Clade Eudicots
+Order Caryophyllales
+Family Polygonaceae
+Genus Polygonum
+Species P. aviculare
+3
+Kingdom Plantae
+Clade Tracheophytes
+Clade Angiosperms
+Clade Eudicots
+Clade Asterids
+Order Dipsacales
+Family Adoxaceae
+Genus Sambucus
+Species S. nigra
+4
+Kingdom Plantae
+Clade Tracheophytes
+Clade Angiosperms
+Clade Eudicots
+Clade Asterids
+Order Asterales
+Family Asteraceae
+Genus Artemisia
+Species A. vulgaris
+5
+Kingdom Plantae
+Clade Tracheophytes
+Clade Angiosperms
+Clade Eudicots
+Clade Asterids
+Order Asterales
+Family Asteraceae
+Genus Symphyotrichum
+Species S. novi-belgii
+6
+Kingdom Plantae
+Clade Tracheophytes
+Clade Angiosperms
+Clade Magnoliids
+Order Laurales
+Family Lauraceae
+Genus Laurus
+Species L. nobilis
+7
+Kingdom Plantae
+Clade Tracheophytes
+Division Ginkgophyta
+Class Ginkgoopsida
+Order Ginkgoales
+Family Ginkgoaceae
+Genus Ginkgo
+Species G. biloba
+8
+Kingdom Plantae
+Clade Tracheophytes
+Clade Angiosperms
+Clade Eudicots
+Clade Rosids
+Order Fagales
+Family Betulaceae
+Genus Carpinus
+Species C. betulus
+9
+Kingdom Plantae
+Clade Tracheophytes
+Clade Angiosperms
+Clade Eudicots
+Clade Rosids
+Order Fagales
+Family Fagaceae
+Genus Quercus
+Subgenus Quercus
+10
+Kingdom Plantae
+Clade Tracheophytes
+Division Pinophyta
+Class Pinopsida
+Order Pinales
+Family Pinaceae
+Genus Pinus
+Subgenus P. strobus
+11
+Kingdom Plantae
+Clade Tracheophytes
+Clade Angiosperms
+Clade Eudicots
+Clade Asterids
+Order Lamiales
+Family Oleaceae
+Genus Syringa
+Species S. vulgaris
+12
+Kingdom Plantae
+Plantae Angiosperms
+Angiosperms Eudicots
+Eudicots Rosids
+Order Sapindales
+Family Sapindaceae
+13
+Kingdom Plantae
+Clade Tracheophytes
+Clade Angiosperms
+Clade Eudicots
+Order Proteales
+Family Platanaceae
+Genus Platanus
+Species P. occidentalis
+14
+Kingdom Plantae
+Clade Tracheophytes
+Clade Angiosperms
+Clade Monocots
+Clade Commelinids
+Order Poales
+Family Poaceae
+Subfamily Arundinoideae
+Tribe Molinieae
+Subtribe Moliniinae
+Genus Phragmites
