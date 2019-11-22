@@ -11,6 +11,10 @@ import (
 	"strings"
 )
 
+/* ScrapeFromFile performs a series of Get requests to capture plant classification data
+from wikipedia links.
+
+*/
 func ScrapeFromFile(source string, target string) {
 	//Read Source
 	file, err := os.Open(source)
@@ -36,7 +40,7 @@ func ScrapeFromFile(source string, target string) {
 		}
 
 		filtered := filterData(sanitizedBody)
-		saveData(f, filtered, index) //saves the data to target file
+		saveScraperData(f, filtered, index) //saves the data to target file
 
 		index = index + 1
 	}
@@ -73,14 +77,7 @@ func filterData(body []string) []string {
 	return filtered
 }
 
-//utility function to save the data neatly into target file
-func saveData(file *os.File, data []string, index int) {
-	file.WriteString(fmt.Sprintf("%d\n", index))
-	for _, d := range data {
-		file.WriteString(d + "\n")
-	}
-}
-
+//scrapeURL takes in a url and returns a sanitized []string list containing all the data scraped
 func scrapeURL(url string) ([]string, error) {
 	response, err := http.Get(url)
 	if err != nil {
@@ -101,15 +98,23 @@ func scrapeURL(url string) ([]string, error) {
 	}
 }
 
-/*
+/* SanitizateBody does 4 things really...
 
- */
+1. Isolate the relevant data (beginning with kingdom, ending with "/b /i /div")
+Conveniently, every wikipedia page formats this the same...
+
+2.	Remove all tags
+3.Remove all special characters ; : . , etc
+
+4. Remove Misc Leftovers
+
+*/
 func sanitizeBody(generalBody string) string {
 	body := func(body string) string {
 		//Strip all newlines...
 		body = strings.Replace(generalBody, "\n", "", -1)
 
-		//strip everything not relevant to the classification
+		//strip everything not relevant to the classification...
 
 		body = body[strings.Index(body, "<td>Kingdom:"):]
 		endIndex := strings.Index(body, "</b></i></div>")
@@ -134,7 +139,7 @@ func sanitizeBody(generalBody string) string {
 	return body
 }
 
-/* stripTags removes all html tags and replaces them with " " */
+/* stripTags  removes all html tags and replaces them with " " */
 func stripTags(body string) string {
 	for strings.Index(body, "<") != -1 {
 		leftCut := strings.Index(body, "<")

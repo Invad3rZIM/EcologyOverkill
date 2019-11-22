@@ -6,20 +6,23 @@ Clade Eudicots
 Clade Rosids
 Order Rosales
 Family Rosaceae
+Phylum Magnoliophyta
+Class Magnoliopsida
 Genus Prunus
 Subgenus Prunus
-Species P. cerasifera
+Species Prunus cerasifera, cherry plum
 1
 Kingdom Plantae
 Clade Tracheophytes
 Division Pinophyta
+Phylum Coniferophyta
 Class Pinopsida
 Order Pinales
 Family Pinaceae
 Genus Pinus
 Section P. sect. Pinus
 Subsection P. subsect. Pinus
-Species P. sylvestris
+Species Pinus sylvestris, Scotch pine
 
 2
 Kingdom Plantae
@@ -28,66 +31,63 @@ Clade Angiosperms
 Clade Eudicots
 Order Caryophyllales
 Family Polygonaceae
+Class Magnoliopsida 
+Phylum Magnoliophyta
 Genus Polygonum
-Species P. aviculare
+Species Polygonum aviculare, prostrate knotweed
 3
 Kingdom Plantae
 Clade Tracheophytes
 Clade Angiosperms
 Clade Eudicots
 Clade Asterids
+Class Magnoliopsida
+Phylum Magnoliophyta
 Order Dipsacales
 Family Adoxaceae
 Genus Sambucus
-Species S. nigra
+Species Sambucus nigra, elder
 4
 Kingdom Plantae
-Clade Tracheophytes
-Clade Angiosperms
-Clade Eudicots
-Clade Asterids
+Phylum Magnoliophyta
+Class Magnoliopsida
 Order Asterales
 Family Asteraceae
 Genus Artemisia
-Species A. vulgaris
+Species Artemisia vulgaris, Felonherb
 5
 Kingdom Plantae
-Clade Tracheophytes
-Clade Angiosperms
-Clade Eudicots
-Clade Asterids
+Phylum Spermatophyta
+Class Dicotyledonae
 Order Asterales
 Family Asteraceae
 Genus Symphyotrichum
-Species S. novi-belgii
+Species Symphyotrichum novi-belgii, Michaelmas daisy
 6
 Kingdom Plantae
-Clade Tracheophytes
-Clade Angiosperms
-Clade Magnoliids
 Order Laurales
+Phylum Magnoliophyta
+Class Magnoliopsida
 Family Lauraceae
 Genus Laurus
-Species L. nobilis
+Species Laurus nobilis, sweet bay
 7
 Kingdom Plantae
-Clade Tracheophytes
 Division Ginkgophyta
 Class Ginkgoopsida
 Order Ginkgoales
+Phylum Ginkgophyta
 Family Ginkgoaceae
 Genus Ginkgo
-Species G. biloba
+Species Ginkgo biloba, ginkgo
 8
 Kingdom Plantae
-Clade Tracheophytes
-Clade Angiosperms
-Clade Eudicots
-Clade Rosids
 Order Fagales
 Family Betulaceae
+Phylum Spermatophyta
+Class Dicotyledonae
 Genus Carpinus
-Species C. betulus
+Species Carpinus betulus, European hornbeam
 9
 Kingdom Plantae
 Clade Tracheophytes
@@ -96,9 +96,12 @@ Clade Eudicots
 Clade Rosids
 Order Fagales
 Family Fagaceae
+Phylum Spermatophyta
+Subphylum Angiospermae
+Class Dicotyledonae
 Genus Quercus
 Subgenus Quercus
-Species Q. rubra
+Species Quercus rubra, northern red oak
 10
 Kingdom Plantae
 Clade Tracheophytes
@@ -107,10 +110,11 @@ Class Pinopsida
 Order Pinales
 Family Pinaceae
 Genus Pinus
+Phylum Coniferophyta
 Subgenus P. subg. strobus
 Section P. sect. Quinquefoliae
 Subsection P. subsect. Strobus
-Species P. strobus
+Species Pinus strobus, Weymouth pine
 11
 Kingdom Plantae
 Clade Tracheophytes
@@ -118,18 +122,23 @@ Clade Angiosperms
 Clade Eudicots
 Clade Asterids
 Order Lamiales
+Phylum Spermatophyta
+Class Dicotyledonae
 Family Oleaceae
 Genus Syringa
-Species S. vulgaris
+Species Syringa vulgaris, common lilac
 12
 Kingdom Plantae
 Plantae Angiosperms
-Angiosperms Eudicots
-Eudicots Rosids
+Clade Angiosperms
+Clade Eudicots 
+Clade Rosids
 Order Sapindales
 Family Sapindaceae
+Class Magnoliopsida
+Phylum Magnoliophyta
 Genus aviculare
-Species A. platanoides
+Species Acer platanoides, Norway maple
 13
 Kingdom Plantae
 Clade Tracheophytes
@@ -137,12 +146,17 @@ Clade Angiosperms
 Clade Eudicots
 Order Proteales
 Family Platanaceae
+Kingdom Plantae
+Phylum Spermatophyta
+Class Dicotyledonae
 Genus Platanus
-Species P. occidentalis
+Species Platanus occidentalis, buttonball
 14
 Kingdom Plantae
 Clade Tracheophytes
 Clade Angiosperms
+Phylum Magnoliophyta
+Class Liliopsida
 Clade Monocots
 Clade Commelinids
 Order Poales
@@ -151,4 +165,5 @@ Subfamily Arundinoideae
 Tribe Molinieae
 Subtribe Moliniinae
 Genus Phragmites
-Species Phragmites australis
+Species Phragmites australis, ditch reed
+16
