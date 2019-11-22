@@ -33,7 +33,8 @@ and then traverse said DFS while applying correct labelling / formatting
 */
 func RenderTreeFromFile(source string, target string) {
 	sequences := buildSequencesFromFile(source)
-	nestedSequences := deriveCategoryMap(sequences)
+
+	nestedSequences := deriveRelationshipsSet(sequences)
 
 	//create a new target to load data into
 	f, err := os.Create(target)
@@ -107,10 +108,10 @@ func generateTree(speciesTable map[string]map[string]struct{}, file *os.File, st
 	}
 }
 
-/*	Generates an adjacency matrix of categories to graphically traverse...
+/*	Generates an adjacency list of categories to graphically traverse...
  */
-func deriveCategoryMap(sequences []*Sequence) map[string]map[string]struct{} {
-	categorySet := make(map[string]map[string]struct{})
+func deriveRelationshipsSet(sequences []*Sequence) map[string]map[string]struct{} {
+	relationshipSet := make(map[string]map[string]struct{})
 
 	//bind parent and child together
 	order := map[string]int{"Kingdom": 0, "Phylum": 1, "Class": 2, "Order": 3, "Family": 4, "Species": 5}
@@ -125,14 +126,14 @@ func deriveCategoryMap(sequences []*Sequence) map[string]map[string]struct{} {
 				parent := seq.classification[parentKey]
 				child := seq.classification[childKey]
 
-				if _, ok := categorySet[parent]; !ok {
-					categorySet[parent] = make(map[string]struct{})
+				if _, ok := relationshipSet[parent]; !ok {
+					relationshipSet[parent] = make(map[string]struct{})
 				}
 
-				categorySet[parent][child] = struct{}{}
+				relationshipSet[parent][child] = struct{}{}
 			}
 		}
 	}
 
-	return categorySet
+	return relationshipSet
 }
