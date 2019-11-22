@@ -6,7 +6,7 @@
 Great questions! This is a tool I designed to get out of my homework. I graduate university in about 3.5 weeks, but at the moment I'm a part-time student who took Ecology as a science elective. In about 4 hours, my term-project is due. This project required collecting 15 different leaves, identifying them,
 then researching their species classification ( Kingdom > Phylum > Class > Order > Family > Species ) and documenting it in a table.
 
-This seemed like a lot of repetitive, boring work, and so naturally I ignored it until the very last day. Instead, I came across a job form for a tech-company that asked for "a sample of your code". Unfortunately for me, most of the code I write is either professionally done (and so I can't freely share it) or it's way too dated. So I decided I would find a mini-project to work on, & write some code using that company's tech stack (Go).
+This seemed like a lot of repetitive, boring work, and so naturally I had to get away from that. Instead, I came across a job form for a tech-company that asked for "a sample of your code". Unfortunately for me, most of the code I write is either professionally done (and so I can't freely share it) or it's way too dated. So I decided I would find a mini-project to work on, & write some code using that company's tech stack (Go).
 
 
 See ```files/output.txt``` for raw final output.
